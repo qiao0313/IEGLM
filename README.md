@@ -1,6 +1,6 @@
 # IEGLM
 
-该项目是使用[ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)模型在信息抽取（IE）任务上进行高效微调的项目，起名为IEGLM。微调方式与ChatGLM-6B模型方式一致，参考[ptuning/README.md](ptuning/README.md)。
+该项目是使用[ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)模型在信息抽取（IE）任务上进行高效微调的项目，起名为IEGLM。微调方式参考[ptuning/README.md](ptuning/README.md)。
 
 ## 基础版本
 模式输入输出形式定义为：
