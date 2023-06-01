@@ -2,6 +2,7 @@
 
 该项目是使用[ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)模型在信息抽取（IE）任务上进行高效微调的项目，起名为IEGLM。微调方式与ChatGLM-6B模型方式一致，参考[ptuning/README.md](ptuning/README.md)。
 
+## 基础版本
 模式输入输出形式定义为：
 
 ```
@@ -11,6 +12,7 @@ output: (subject1, relation1, object1),(subject2, relation2, object2),...
 ```
 具体构造方式参考[ptuning/RelationExtraction/process_data.py](ptuning/RelationExtraction/process_data.py)。
 
+## 思维链
 除此之外，为了提升模型的推理能力，本项目还尝试利用思维链（Chain-of-thoughts, COT）的方法对输入输出进行改进。于是输入和输出形式定义为：
 
 ```
